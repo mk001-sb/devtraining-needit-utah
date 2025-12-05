@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard">
+    <par_dashboard action="DELETE">
+        <active>true</active>
+        <base_dashboard/>
+        <certified>false</certified>
+        <description/>
+        <experience/>
+        <grid>48</grid>
+        <name>MKF</name>
+        <sys_class_name>par_dashboard</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-05 13:41:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8fd7b77e53e932100ee538f0a0490e37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MKF</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>par_dashboard_8fd7b77e53e932100ee538f0a0490e37</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-05 13:41:32</sys_updated_on>
+        <sys_ux_app_config/>
+        <sys_ux_app_route/>
+        <sys_ux_macroponent/>
+        <sys_ux_screen/>
+        <sys_ux_screen_type/>
+    </par_dashboard>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>0f7b28e91bfebd54ba5ceb9b2d4bcb45</instance_id>
+        <instance_name>dev227553</instance_name>
+        <name>par_dashboard_8fd7b77e53e932100ee538f0a0490e37</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard"><par_dashboard action="INSERT_OR_UPDATE"><active>true</active><base_dashboard/><certified>false</certified><description/><experience/><grid>48</grid><name>MKF</name><sys_class_name>par_dashboard</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-05 13:41:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8fd7b77e53e932100ee538f0a0490e37</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MKF</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>par_dashboard_8fd7b77e53e932100ee538f0a0490e37</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-05 13:41:32</sys_updated_on><sys_ux_app_config/><sys_ux_app_route/><sys_ux_macroponent/><sys_ux_screen/><sys_ux_screen_type/></par_dashboard></record_update>]]></payload>
+        <payload_hash>2146825108</payload_hash>
+        <record_name>MKF</record_name>
+        <reverted_from/>
+        <source>2b40fea253ad76100ee538f0a0490ede</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-05 13:41:32</sys_created_on>
+        <sys_id>03d7b77e53e932100ee538f0a0490e3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19aeebf18240000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-05 13:41:32</sys_updated_on>
+        <type>PAR Dashboard</type>
+        <update_guid>cfd7b77e6ee93210003fa8352d927939</update_guid>
+        <update_guid_history>cfd7b77e6ee93210003fa8352d927939:2146825108</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="MKF">8d18f37e53e932100ee538f0a0490e41</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-05 13:42:29</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard">par_dashboard</sys_db_object>
+        <sys_id>2fdb2c7d412743e1900bf7b58f4b22a9</sys_id>
+        <sys_metadata>8fd7b77e53e932100ee538f0a0490e37</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MKF</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>par_dashboard_8fd7b77e53e932100ee538f0a0490e37</sys_update_name>
+        <sys_update_version display_value="par_dashboard_8fd7b77e53e932100ee538f0a0490e37">03d7b77e53e932100ee538f0a0490e3b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-05 13:42:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
