@@ -585,7 +585,47 @@
                                                         },
                                                         "elementId": "overdue_needits_score",
                                                         "elementLabel": "Overdue NeedIts score",
-                                                        "eventMappings": [],
+                                                        "eventMappings": [
+                                                            {
+                                                                "eventMappingId": "AeiYgfLTBEqiijjxsFhbzWRJSB",
+                                                                "isConfiguration": false,
+                                                                "offRowStorageId": null,
+                                                                "sourceEventApiName": "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
+                                                                "sourceEventCorrelationId": null,
+                                                                "sourceEventDefinition": {
+                                                                    "apiName": "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
+                                                                    "id": null,
+                                                                    "type": "UXEVENT"
+                                                                },
+                                                                "sourceEventSysId": null,
+                                                                "targets": [
+                                                                    {
+                                                                        "broker": null,
+                                                                        "clientScript": null,
+                                                                        "clientTransformScript": "javascript(/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n*/\nfunction evaluateEvent({api, event}) {\n\treturn {\n\t\troute: \"simple-list\",\n\t\tfields: {\n\t\ttable: \"x_58872_needit_needit\" \n\t},\n\t\tparams: {\n\t\tlistTitle: \"Open NeedIts\" ,\n\t\tquery: \"active=true^u_when_needed&lt;javascript:gs.beginningOfToday()\" ,\n\t\tlistView: \"Experience_list\" \n\t},\n\t\tredirect: null,\n\t\tpassiveNavigation: null,\n\t\ttitle: null,\n\t\tmultiInstField: null,\n\t\ttargetRoute: null,\n\t\texternal: null,\n\t\tnavigationOptions: {\n\t\tnavigateExternal: true \n\t}\n\t};\n})",
+                                                                        "conditional": null,
+                                                                        "declarativeAction": null,
+                                                                        "event": {
+                                                                            "apiName": "x_58872_needit.NAV_ITEM_SELECTED_RELAY_f8128e4b53fdb2100ee538f0a0490e03",
+                                                                            "payload": {
+                                                                                "script": {
+                                                                                    "apiVersion": "1.0.0",
+                                                                                    "controllerElementId": null,
+                                                                                    "inlineScript": "/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n*/\nfunction evaluateEvent({api, event}) {\n\treturn {\n\t\troute: \"simple-list\",\n\t\tfields: {\n\t\ttable: \"x_58872_needit_needit\" \n\t},\n\t\tparams: {\n\t\tlistTitle: \"Open NeedIts\" ,\n\t\tquery: \"active=true^u_when_needed&lt;javascript:gs.beginningOfToday()\" ,\n\t\tlistView: \"Experience_list\" \n\t},\n\t\tredirect: null,\n\t\tpassiveNavigation: null,\n\t\ttitle: null,\n\t\tmultiInstField: null,\n\t\ttargetRoute: null,\n\t\texternal: null,\n\t\tnavigationOptions: {\n\t\tnavigateExternal: true \n\t}\n\t};\n}",
+                                                                                    "scriptSysId": null,
+                                                                                    "target": null
+                                                                                },
+                                                                                "type": "CLIENT_TRANSFORM_SCRIPT"
+                                                                            },
+                                                                            "sysId": "ad47406753bd32100ee538f0a0490ee9"
+                                                                        },
+                                                                        "operation": null,
+                                                                        "targetId": "uqsqQfXoDaaAeejjjjkKYgPdUlfjj",
+                                                                        "type": "EVENT"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
                                                         "isHidden": {
                                                             "type": "JSON_LITERAL",
                                                             "value": null
@@ -3572,6 +3612,10 @@
                 "type": "JSON_LITERAL",
                 "value": 0
             },
+            "enableCardClickOpen": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
             "enableCellFiltering": {
                 "type": "JSON_LITERAL",
                 "value": true
@@ -3601,6 +3645,10 @@
                 "value": false
             },
             "enableLiveList": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "enableOnlySingleSelection": {
                 "type": "JSON_LITERAL",
                 "value": false
             },
@@ -3696,7 +3744,7 @@
 ]</data>
         <description>A page created from UIB using the "Record List" component.</description>
         <disable_auto_reflow>false</disable_auto_reflow>
-        <dispatched_events/>
+        <dispatched_events>ad47406753bd32100ee538f0a0490ee9</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -3841,14 +3889,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-18 10:01:05</sys_created_on>
         <sys_id>f8128e4b53fdb2100ee538f0a0490e03</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>NeedIt Admin home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_f8128e4b53fdb2100ee538f0a0490e03</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-19 09:50:57</sys_updated_on>
+        <sys_updated_on>2025-12-19 14:50:30</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=f8128e4b53fdb2100ee538f0a0490e03"/>
 </record_update>
